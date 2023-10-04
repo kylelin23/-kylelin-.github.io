@@ -1,5 +1,5 @@
 main {
-  background-color: lightgreen;
+  background-image: linear-gradient(red, pink);
   padding: 30px;
   margin: 0px;
 }
@@ -7,11 +7,12 @@ main {
 .page-title {
     text-align: center;
     font-size: 50px;
+    
 }
 
 .navbar {
   display: flex;
-  background-color: rgb(30, 100, 150);
+  background-color: darkslateblue;
   justify-content: space-between;
   padding: 15px;
 }
@@ -23,18 +24,21 @@ main {
   align-items: center;
 }
 
+a {
+    color: black;
+}
+
 .about {
-  background-color: green;
   padding: 30px;
   display: flex;
   gap: 20px;
   font-size: 20px;
   align-items: center;
-  height: 395px;
+  height: 390px;
 }
 
 footer {
-    background-color: rgb(30, 100, 150);
+    background-color: darkslateblue;
     padding: 10px;
     position: fixed;
     width: 1475px;
@@ -43,5 +47,41 @@ footer {
 
 body {
     margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+.personal-website {
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    flex-direction: column;
+    height: 410px;
+    justify-content: center;
+}
+
+.blog-page {
+    display: flex;
+    flex-direction: column;
+    height: 575px;
+    gap: 25px;
+    align-items: center;
+}
+
+.resume{
+    height: 450px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    align-items:center;
+    gap: 15px;
+}
+input, 
+textarea {
+    width: 200px;
 }
