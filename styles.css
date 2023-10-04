@@ -12,7 +12,7 @@ main {
 
 .navbar {
   display: flex;
-  background-color: darkslateblue;
+  background-color: darkred;
   justify-content: space-between;
   padding: 15px;
 }
@@ -25,6 +25,10 @@ main {
 }
 
 a {
+    color: white;
+}
+
+.specialLink {
     color: black;
 }
 
@@ -38,11 +42,10 @@ a {
 }
 
 footer {
-    background-color: darkslateblue;
+    background-color: white;
     padding: 10px;
-    position: fixed;
-    width: 1475px;
     text-align: center;
+    display: flex;
 }
 
 body {
